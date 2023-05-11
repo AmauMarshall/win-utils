@@ -1,0 +1,2 @@
+@echo off
+gst-launch-1.0 -v mfvideosrc device-path="\\\\\?\\usb\#vid_26e0\&pid_3c13\&mi_00\#8\&17be4a3a\&0\&0000\#\{e5323777-f976-4f5b-9b55-b94699c46e44\}\\global" ! video/x-raw, format=NV12, width=640, height=480, framerate=5/1 ! videoconvert ! vp9enc ! rtpvp9pay ! udpsink host=%1 port=%2

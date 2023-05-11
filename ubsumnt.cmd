@@ -1,0 +1,1 @@
+wsl --unmount \\.\PHYSICALDRIVE1

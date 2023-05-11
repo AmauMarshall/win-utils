@@ -1,0 +1,1 @@
+wsl --mount \\.\PHYSICALDRIVE1 -p 2
